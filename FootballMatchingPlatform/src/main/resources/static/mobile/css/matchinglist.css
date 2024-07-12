@@ -1,0 +1,405 @@
+#locationInfoDiv{
+	margin-left:-10%;
+}
+
+.matchingDateBtn:hover, .matchingDateBtn.active {
+	background: #73A772;
+}
+
+#locationBtns button{
+	border-radius:3rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	font-size:0.8rem;
+	border-color:#626262;
+}
+
+.timeZone{
+	white-space:nowrap;
+}
+
+.matchingDate{
+	white-space:nowrap;
+}
+
+.matchingDateBtn{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:3.5rem;
+	height:2.5rem;
+	font-size:1rem;
+	border-color:#626262;
+}
+
+#matchingDateBtns {
+	font-size: 0;
+}
+
+#matchingDateBtns li {
+	display: inline-block;
+	margin-left: -1px;
+}
+
+#matchingDateBtns li:first-child {
+	margin-left: 0;
+}
+
+#locationBtns {
+	font-size: 0;
+}
+
+#locationBtns li {
+	display: inline-block;
+	margin-left: -1px;
+}
+
+#locationBtns li:first-child {
+	margin-left: 0;
+}
+
+#OKOKTier {
+	font-size: 0;
+}
+
+#OKOKTier li {
+	display: inline-block;
+	margin-left: -1px;
+}
+
+#OKOKTier li:first-child {
+	margin-left: 0;
+}
+
+#locationBtns {
+	font-size: 0;
+}
+
+#locationBtns li {
+	display: inline-block;
+	margin-left: -1px;
+}
+
+#locationBtns li:first-child {
+	margin-left: 0;
+}
+
+body{
+	font-size:16px;
+}
+
+#matchingCheckList li {
+	display: inline-block;
+	margin-left: -1px;
+}
+
+#matchingCheckList li:first-child {
+	margin-left: 0;
+}
+
+input[type="checkbox"]{
+	width:1.5rem;
+	height:1.5rem;
+	margin-left:5rem;
+	margin-top:1.7rem;
+}
+
+.matchInfo{
+	margin-right:2rem;
+}
+
+.applyStatus{
+	color:#FFFFFF;
+	background-color:#73A772;
+	border-radius:1.5rem;
+	border:none;
+	font-size:0.75rem;
+	width:4rem;
+	height:1.5rem;
+}
+
+.ulMatchDiv{
+	display:flex;
+	justify-content:space-between;
+	border:2px solid #969696;
+	border-radius:1rem;
+	width:21rem;
+	height:5rem;
+}
+
+.matchTime{
+	font-size:1.1rem;
+	white-space: nowrap;
+}
+
+.matchLocation{
+	font-size:0.9rem;
+	margin-top:-15%;
+}
+
+.matchingCheckListDiv{
+	display:flex;
+	justify-content:flex-end;
+}
+
+.locationCity{
+	white-space:nowrap;
+	
+}
+
+.locationCityBtn{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:4rem;
+	height:3rem;
+	font-size:1rem;
+	border-color:#626262;
+    text-align: center;
+}
+
+#locationCityBtns {
+	
+	font-size: 0;
+}
+
+#locationCityBtns li {
+	display: inline-block;
+	margin-left: -1px;
+}
+
+#locationCityBtns li:first-child {
+	margin-left: 0;
+}
+
+#applyBtn{
+	border-radius:1.5rem;
+	background-color:#73A772;
+	color:#FFFFFF;
+	width:7.5rem;
+	height:3rem;
+	font-size:1rem;
+	position:fixed;
+	top:85%;
+	left:35%;
+}
+
+.filterBtnDiv{
+	display:flex;
+	justify-content:flex-start;
+}
+
+.h1Location{
+	font-size:1.5rem;
+}
+
+
+.filterBtn{
+	margin-top:1.5rem;
+	border: 2px solid #000000;
+	border-radius:1rem;
+	background-color:#FFFFFF;
+	color:#000000;
+	width:5rem;
+	height:2.5rem;
+	font-size:1rem;
+}
+
+.matchingDate{
+	white-space:nowrap;
+}
+
+.matchingDateBtn{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:2rem;
+	height:2rem;
+	font-size:0.66rem;
+	border-color:#626262;
+}
+
+#matchingDateBtns {
+	
+	font-size: 0;
+}
+#matchingDateBtns li {
+	display: inline-block;
+	margin-left: -1px;
+}
+#matchingDateBtns li:first-child {
+	margin-left: 0;
+}
+
+
+.matchingDateBtn:hover, .matchingDateBtn.active1 {
+	background: #73A772;
+}
+#searchButton{
+    background: #73A772;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    width: 6rem;
+    height: 2rem;
+    border: #73A772;
+}
+
+#OKOKTier button{
+	border-radius:3rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	font-size:0.8rem;
+	border-color:#626262;
+}
+#OKOKTier {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#locationInfoDiv{
+	margin-left:-10%;
+}
+
+
+
+
+
+
+.locationCityBtn:hover, .locationCityBtn.active {
+	background: #73A772;
+}
+
+#locationBtns button{
+	border-radius:3rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	font-size:0.8rem;
+	border-color:#626262;
+}
+#locationBtns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#fieldInfomation{
+	display: flex;
+	justify-content: space-between;
+}
+#fieldLocation{
+	display: flex;
+	justify-content: space-between;
+}
+.modal{
+	top:20%;
+}
+.closeButton{
+	margin-left: 18rem;
+}
+.locationInfo11 button{
+    border-radius:3rem;
+    background-color: #73A772 !important;
+    color:#FFFFFF !important;
+    font-size:0.8rem;
+    border:2px solid #73A772 !important;
+    width: 4.5rem;
+    height: 1.7rem;
+}
+
+.showerTF.active {
+    background: #FFFFFF !important;
+    color:#a5a5a5 !important;
+    border:1px solid #a5a5a5 !important;
+}
+.ballTF.active {
+    background: #FFFFFF !important;
+    color:#a5a5a5 !important;
+    border:1px solid #a5a5a5 !important;
+}
+.parkTF.active {
+    background: #FFFFFF !important;
+    color:#a5a5a5 !important;
+    border:1px solid #a5a5a5 !important;
+}
+.shoesTF.active {
+    background: #FFFFFF !important;
+    color:#a5a5a5 !important;
+    border:1px solid #a5a5a5 !important;
+}
+.drinkTF.active {
+    background: #FFFFFF !important;
+    color:#a5a5a5 !important;
+    border:1px solid #a5a5a5 !important;
+}
+.matchDateH3{
+	margin-left: 8rem;
+}
+#matchCheckCloseButton{
+	background: #828282;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    width: 6rem;
+    height: 2rem;
+    border: #828282;
+	
+}
+#matchCheckApplyButton{
+    background: #73A772;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    width: 6rem;
+    height: 2rem;
+    border: #73A772;
+}
+#myApplyList {
+	list-style-type: none;
+	
+}
+#myApplyList li{
+	margin-left: -1px;
+}
+#myApplyList li:first-child {
+	margin-left: 0;
+}
+
+#myApplyListDiv{
+	height: 10rem;
+}
+
+.applyStatus.active{
+	background-color: #828282;
+}
+
+#statusMyApply{
+	border-radius: 3rem;
+	border:2px solid #73A772;
+	width: 4rem;
+	height: 2rem;
+	color: #000000;
+}
+#statusApplyFail{
+	border-radius: 3rem;
+	border:2px solid #73A772;
+	width: 4rem;
+	height: 2rem;
+	color: #000000;
+}
+#myApplyListSuccess{
+	list-style-type: none;
+}
+
+
+#myApplyListFail{
+	list-style-type: none;
+}
+
+
+#statusCheckApplyButton{
+	background: #73A772;
+    color: #FFFFFF;
+    border-radius: 3rem;
+    width: 6rem;
+    height: 2rem;
+    border: #73A772;
+}

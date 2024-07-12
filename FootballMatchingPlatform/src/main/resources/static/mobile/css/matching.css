@@ -1,0 +1,245 @@
+#btnTimes button{
+	border-radius:3rem;
+	background-color:#828282;
+	color:#FFFFFF;
+	width:4rem;
+	height:2rem;
+	font-size:0.8rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+#applyTypeBtn{
+	border-radius:3rem;
+	background-color:#828282;
+	color:#FFFFFF;
+	width:4rem;
+	height:2rem;
+	font-size:0.8rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+#showBtn{
+	border-radius:3rem;
+	background-color:#73A772;
+	color:#FFFFFF;
+	width:7.5rem;
+	height:3rem;
+	font-size:1rem;
+	position:fixed;
+	top:85%;
+	left:35%;
+	z-index: 1000;
+}
+
+p{
+	font-size:1rem;
+}
+
+.timeZone{
+	white-space:nowrap;
+}
+
+.matchingDate{
+	white-space:nowrap;
+}
+
+.matchingDateBtn0{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:2rem;
+	height:2rem;
+	font-size:0.8rem;
+	border-color:#626262;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.matchingDateBtn1{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:2rem;
+	height:2rem;
+	font-size:0.8rem;
+	border-color:#626262;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.matchingDateBtn2{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:2rem;
+	height:2rem;
+	font-size:0.8rem;
+	border-color:#626262;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.matchingDateBtn3{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:2rem;
+	height:2rem;
+	font-size:0.8rem;
+	border-color:#626262;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+.matchingDateBtn4{
+	border-radius:6rem;
+	background-color:#FFFFFF;
+	color:#626262;
+	width:2rem;
+	height:2rem;
+	font-size:0.8rem;
+	border-color:#626262;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+
+#matchingDateBtns {
+  white-space: nowrap;
+  font-size: 0;
+}
+
+#matchingDateBtns li {
+  display: inline-block;
+  margin-left: -1px;
+}
+
+#matchingDateBtns li:first-child {
+  margin-left: 0;
+}
+
+#btnTimes {
+  font-size: 0;
+}
+
+#btnTimes li {
+  display: inline-block;
+  margin-left: -1px;
+}
+
+#btnTimes li:first-child {
+  margin-left: 0;
+}
+
+#applyTypeBtns {
+  font-size: 0;
+}
+
+#applyTypeBtns li {
+  display: inline-block;
+  margin-left: -1px;
+}
+
+#applyTypeBtns li:first-child {
+  margin-left: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+#backBtn{
+	font-size:1rem;
+}
+
+#frontBtn{
+	font-size:1rem;
+}
+
+#matchingDateBtn:hover, #matchingDateBtn.active90 {
+  background: #73a772;
+}
+
+#applyTypeBtn:hover, #applyTypeBtn.active2 {
+  background: #73a772;
+}
+
+#btnTime:hover, #btnTime.active3 {
+	background: #73A772;
+}
+
+#btnTime1:hover, #btnTime1.active4 {
+	background: #73A772;
+}
+
+#btnTime2:hover, #btnTime2.active5 {
+	background: #73A772;
+}
+
+#btnTime3:hover, #btnTime3.active6 {
+	background: #73A772;
+}
+
+#btnTime4:hover, #btnTime4.active7 {
+	background: #73A772;
+}
+
+#btnTime5:hover, #btnTime5.active8 {
+	background: #73A772;
+}
+
+#btnTime6:hover, #btnTime6.active9 {
+	background: #73A772;
+}
+
+.toast {
+      position: fixed;
+      top: 85%;
+      right: 1%;
+      background-color: #333;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      opacity: 0;
+      transition: opacity 1s ease;
+}
+
+.toast.show {
+  opacity: 1;
+  z-index: 2001;
+  background-color: #AAAAAA;
+}
+
+.toast1 {
+  position: fixed;
+  top: 85%;
+  right: 1%;
+  background-color: #333;
+  color: white;
+  padding: 1rem 7.1rem;
+  border-radius: 1rem;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.toast1.show1 {
+  opacity: 1;
+  z-index: 2000;
+  background-color: #AAAAAA;
+}
+
+#matchingDateBtnsLi{
+	width: 15rem;
+}
+
+#matchingDateBtns{
+	width: 18rem;
+}

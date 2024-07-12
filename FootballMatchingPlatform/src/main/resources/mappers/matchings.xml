@@ -89,7 +89,7 @@
 		ON u.user_id = ma.user_id
 		SET matching_success_status = TRUE
 		WHERE matching_seq = #{matchingSeq}
-		AND u.user_tier != #{userTier};
+		AND u.user_tier = #{userTier};
 	</update>
 	
 	<!-- 매칭 신청 결과 조회 -->
@@ -105,7 +105,7 @@
  	<!-- 빠른 신청 리스트 조회(가까운 일정 순) -->
  	<select id="selectFastMatchingList" resultType="com.kosta.project.dto.FastMatchingDTO">
  		SELECT m.matching_seq as matchingSeq, matching_tier as matchingTier, matching_date as matchingDate, matching_time as matchingTime,
- 		field_address as fieldAddress, field_address_detail as fieldAddressDetail, field_img as fieldImg, m.field_seq as fieldSeq, 
+ 		field_address as fieldAddress, field_address_detail as fieldAddressDetail, field_img as fieldImg, 
  		COUNT(matching_add_list_seq) as playerCount
 		FROM matchings m, fields f, field_imgs fi, matching_add_lists ml
 		WHERE m.field_seq = f.field_seq AND f.field_seq = fi.field_seq

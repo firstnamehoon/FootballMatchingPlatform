@@ -53,9 +53,6 @@ public class MatchingServiceTest {
 				.fieldAddress("금천구 영등포구")
 				.build();
 		List<MatchingsDTO> matchingsDTO = ms.getMatchingsListByRegion(dto);
-		for(int i=0; i<matchingsDTO.size(); i++) {
-			System.out.println("최종 매칭" + matchingsDTO.get(i));
-		}
 	}
 	
 	//@Test
@@ -67,7 +64,7 @@ public class MatchingServiceTest {
 	void addMatcingsTest() {
 		MatchingConditionDTO dto = MatchingConditionDTO.builder()
 				.matchingDate("2024-07-10")
-				.matchingTime("14 16")
+				.matchingTime("14")
 				.build();
 		List<MatchingsDTO> matchingsDTO = ms.getMatchingsList(dto);
 		
@@ -78,5 +75,13 @@ public class MatchingServiceTest {
 				.mDTO(matchingsDTO)
 				.build();
 		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
+//		ms.addMatcings(addDTO);
 	}
 }

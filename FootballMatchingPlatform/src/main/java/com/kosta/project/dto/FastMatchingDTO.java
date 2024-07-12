@@ -18,5 +18,4 @@ public class FastMatchingDTO {
 	String fieldAddressDetail;
 	String fieldImg;
 	int playerCount;
-	int fieldSeq;
 }
