@@ -17,10 +17,6 @@
 
 
 
-
-
-
-
 #btnTimes button{
 	border-radius:3rem;
 	background-color:#828282;
@@ -370,8 +366,6 @@ dates.forEach((date, i) => {
 
 
 
-
-
 let backClickCount = 0;
 let frontClickCount = 0;
 let plusOrMinusNumber = 0;
@@ -382,7 +376,12 @@ backBtn.addEventListener('click', () => {
 
   plusOrMinusNumber = 5*(frontClickCount + backClickCount);
 
-  $('#matchingDateBtnsLi li').empty();
+	
+  //matchingDateBtnsLi
+  		
+
+
+  $('#matchingDateBtnsLi').empty();
 
   const backDates = [];
   
@@ -421,7 +420,7 @@ frontBtn.addEventListener('click', () => {
 
   plusOrMinusNumber = 5*(frontClickCount + backClickCount);
 
-  $('#matchingDateBtnsLi li').empty();
+  $('#matchingDateBtnsLi').empty();
 
   const frontDates = [];
   
@@ -446,9 +445,11 @@ frontDates.forEach((date, i) => {
   $('#matchingDateBtnsLi').append(
 	"<li><button type = 'button' id='matchingDateBtn' class = 'matchingDateBtn" + i + " btn m-2 p-3' onclick='change_btn(event)' value='" + `${date}` + "'>" + `${date.slice(-2)}` + "</button></li>"
   )
-
+	
 
 });
+
+
 });
 
 
