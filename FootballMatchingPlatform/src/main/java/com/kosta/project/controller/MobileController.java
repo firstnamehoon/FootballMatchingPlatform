@@ -1,25 +1,41 @@
 package com.kosta.project.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.kosta.project.service.FastMatchingService;
+
 
 @Controller
 @RequiredArgsConstructor
 public class MobileController {
 	
+	private final FastMatchingService fms;
+
+	
 	@GetMapping("/fastmatchinglist")
-	public String getFastMatchingList() {
+	public String getFastMatchingList(Model model) {
+		
+		System.out.println("빠른 신청 리스트1번 여기까지는 잘 옴ㅇㅇㅋ");
+		
+		model.addAttribute("getFastMatching1", fms.getFastMatchingList());
+		
+		
 		return "fastmatchinglist";
 	}
 	
 	
-	@GetMapping("/fastmatchinginfo")
-	public String getFastMatchingInfo() {
+	@GetMapping("/fastmatchinginfo/{matchingSeq}")
+	public String getFastMatchingInfo(@PathVariable("matchingSeq") int matchingSeq, Model model) {
+		
+		System.out.println("빠른매칭 상세 정보");
+		model.addAttribute("fastmatchinginfo", fms.getFastMatchingInfo(matchingSeq));
+		
 		return "fastmatchinginfo";
 	}
 	
