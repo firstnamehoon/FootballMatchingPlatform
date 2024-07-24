@@ -132,11 +132,13 @@ public class UserRestController {
 	@GetMapping("/getMyTeamInfo")
 	public Map<String, TeamDTO> getTeamInfoByUserId(@SessionAttribute(name ="loginUser", required = false) UserDTO user) {
 		TeamDTO team = us.getTeamInfoByUserId(user.getUserId());
+		System.out.println(team);
 		if(team == null) {
 			return Map.of("result", TeamDTO.builder().teamSeq(0).build());
 		}
-		else
-		return Map.of("result", us.getTeamInfoByUserId(user.getUserId()));
+		else {
+		return Map.of("result", team);
+		}
 	}
 	
 	// 내 등급 불러오기

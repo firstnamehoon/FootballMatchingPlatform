@@ -345,8 +345,9 @@
 		SELECT team_tier FROM teams WHERE leader_id = #{userId};
 	</select>
 	<!-- 내 팀 정보 불러오기(마이페이지) -->
-	<select id="selectTeamInfoByUserId" resultType="com.kosta.project.dto.TeamDTO">
+	<select id="selectTeamInfoByUserId" resultType="com.kosta.project.dto.TeamDTO" parameterType="String">
 	    SELECT
+	      teams.team_seq as teamSeq,
 	      teams.team_name as teamName,
 	      teams.team_rank as teamRank,
 	      teams.team_tier as teamTier,
